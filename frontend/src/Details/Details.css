@@ -1,0 +1,128 @@
+.details {
+    flex: 1;
+
+    .user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        padding: 5px 30px;
+        border-bottom: 1px solid black;
+        color: white;
+
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .info {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex: 1;
+
+        .option {
+
+
+            .tittle {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                    background-color: rgba(44, 44, 62, 0.544);
+                    cursor: pointer;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+
+
+            }
+
+            .photoes {
+                padding-top: 5px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .photoesInfo {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .photoDetails {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 10px;
+
+                        img {
+                            width: 20px;
+                            height: 20px;
+                            object-fit: cover;
+                            border-radius: 5px;
+                        }
+
+                        span {
+                            font-size: 13px;
+                            color: lightgray;
+                            font-weight: 300;
+                        }
+                    }
+                }
+
+                .download {
+                    width: 20px;
+                    height: 20px;
+                    background-color: rgba(44, 44, 62, 0.544);
+                    cursor: pointer;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        button {
+            padding: 7px 30px;
+            background-color: rgba(255, 0, 0, 0.424);
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            color: white;
+
+            &:hover {
+                background-color: red;
+            }
+        }
+
+        .logout {
+            padding: 7px 30px;
+            background-color: rgba(0, 0, 255, 0.236);
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            color: white;
+
+            &:hover {
+                background-color: blue;
+            }
+        }
+    }
+}
